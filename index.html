@@ -8,10 +8,10 @@
   </head>
   <body>
     <header class="page-header">
-      <nav class="navigatioin">
-        <img class="navigatioin__logo" width="20" height="20" src="#" alt="логотип maker">
-        <button class="navigatioin__btn-open-menu" aria-label="кнопка открыть меню"></button>
-      </nav>
+      <div class="logo">
+        <img class="logo__img" width="20" height="20" src="#" alt="логотип maker">
+      </div>
+      <button class="page-header__btn-open-menu" aria-label="кнопка открыть меню"></button>
       <b class="page-header__slogan">we build innovative companies</b>
     </header>
     <main class="main">
@@ -91,7 +91,29 @@
       </section>
     </main>
     <footer class="page-footer">
-
+      <div class="logo">
+        <img class="logo__img" width="20" height="20" src="#" alt="логотип maker">
+      </div>
+      <nav class="navigation">
+        <ul class="navigation__list">
+          <li class="navigation__item  navigation__item--about">
+            <a class="navigation__link  navigation__link--about" href="#"aria-label="ссылка на страницу about">About</a>
+          </li>
+          <li class="navigation__item  navigation__item--faq">
+            <a class="navigation__link  navigation__link--faq" href="#"aria-label="ссылка на страницу faq">Faq</a>
+          </li>
+          <li class="navigation__item  navigation__item--blog">
+            <a class="navigation__link  navigation__link--blog" href="#"aria-label="ссылка на страницу blog">Blog</a>
+          </li>
+          <li class="navigation__item  navigation__item--tour">
+            <a class="navigation__link  navigation__link--tour" href="#"aria-label="ссылка на страницу tour">Tour</a>
+          </li>
+          <li class="navigation__item  navigation__item--contact">
+            <a class="navigation__link  navigation__link--contact" href="#"aria-label="ссылка на страницу contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <p class="page-footer__developer">© 2016 Maker. All rights reserved</p>
     </footer>
     <script src="js/script.min.js"></script>
     <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
